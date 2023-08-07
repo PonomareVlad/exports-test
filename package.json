@@ -1,0 +1,53 @@
+{
+  "name": "exports-test",
+  "version": "1.0.1",
+  "description": "Module exposing a number of different `exports` fields, for testing which one your bundler/environment ends up using",
+  "main": "src/main.js",
+  "module": "src/module.mjs",
+  "browser": "src/browser.js",
+  "react-native": "src/react-native.js",
+  "source": "src/source.ts",
+  "types": "src/types.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/exports.types.d.ts",
+      "source": "./src/exports.source.ts",
+      "deno": "./src/exports.deno.ts",
+      "node-addons": "./src/exports.node-addons.js",
+      "node": "./src/exports.node.js",
+      "browser": "./src/exports.browser.js",
+      "import": "./src/exports.import.mjs",
+      "react-native": "./src/exports.react-native.js",
+      "default": "./src/exports.default.js"
+    },
+    "./env": {
+      "import": "./src/env.mjs",
+      "browser": "./src/env.mjs",
+      "default": "./src/env.cjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/exports-test.git"
+  },
+  "keywords": [
+    "exports",
+    "package-json",
+    "bundler",
+    "environment"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/exports-test/issues"
+  },
+  "homepage": "https://github.com/rexxars/exports-test#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
