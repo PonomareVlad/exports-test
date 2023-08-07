@@ -2,6 +2,7 @@
   "name": "exports-test",
   "version": "1.0.1",
   "description": "Module exposing a number of different `exports` fields, for testing which one your bundler/environment ends up using",
+  "edge-light": "src/edge-light.mjs",
   "main": "src/main.js",
   "module": "src/module.mjs",
   "browser": "src/browser.js",
@@ -10,6 +11,7 @@
   "types": "src/types.d.ts",
   "exports": {
     ".": {
+      "edge-light": "./src/exports.edge-light.mjs",
       "types": "./src/exports.types.d.ts",
       "source": "./src/exports.source.ts",
       "deno": "./src/exports.deno.ts",
