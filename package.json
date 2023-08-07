@@ -45,21 +45,21 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PonomareVlad/Vercel-grammY.git"
-  },
   "keywords": [
     "exports",
     "package-json",
     "bundler",
     "environment"
   ],
+  "license": "MIT",
   "funding": "https://PonomareVlad.ru/donate",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/PonomareVlad/Vercel-grammY/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonomareVlad/exports-test.git"
   },
-  "homepage": "https://github.com/PonomareVlad/Vercel-grammY#readme"
+  "bugs": {
+    "url": "https://github.com/PonomareVlad/exports-test/issues"
+  },
+  "homepage": "https://github.com/PonomareVlad/exports-test#readme"
 }
