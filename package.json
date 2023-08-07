@@ -1,6 +1,6 @@
 {
-  "name": "exports-test",
-  "version": "1.0.1",
+  "name": "exports-test-wintercg",
+  "version": "1.0.2",
   "description": "Module exposing a number of different `exports` fields, for testing which one your bundler/environment ends up using",
   "edge-light": "src/edge-light.mjs",
   "main": "src/main.js",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rexxars/exports-test.git"
+    "url": "git+https://github.com/PonomareVlad/Vercel-grammY.git"
   },
   "keywords": [
     "exports",
@@ -43,13 +43,11 @@
     "bundler",
     "environment"
   ],
-  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "funding": "https://PonomareVlad.ru/donate",
+  "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rexxars/exports-test/issues"
+    "url": "https://github.com/PonomareVlad/Vercel-grammY/issues"
   },
-  "homepage": "https://github.com/rexxars/exports-test#readme",
-  "devDependencies": {
-    "prettier": "^2.7.1"
-  }
+  "homepage": "https://github.com/PonomareVlad/Vercel-grammY#readme"
 }
