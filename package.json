@@ -1,6 +1,6 @@
 {
   "name": "exports-test-wintercg",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Module exposing a number of different `exports` fields, for testing which one your bundler/environment ends up using",
   "edge-light": "src/edge-light.mjs",
   "bun": "src/bun.mjs",
